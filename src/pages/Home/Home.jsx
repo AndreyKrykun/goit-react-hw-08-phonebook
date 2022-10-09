@@ -13,7 +13,7 @@ const Home = () => {
           </HomeTitle>
         ) : (
           <HomeTitle>
-            Welcome, dear Guest! This website is made to help you create your
+            Welcome, my Friend! Here you create your
             own phonebook where you can keep all your contacts. <HomeLink to="register">Sign up</HomeLink> or{' '}
             <HomeLink to="login">Log in</HomeLink>.
           </HomeTitle>

@@ -8,7 +8,7 @@ export const Section = styled.div`
   margin-right: ${p => p.theme.space[9]};
   min-height: 100vh;
   text-align: center;
-  background-color: ${p => p.theme.colors.white};
+  background-image: linear-gradient(#a9c9ff, #ffbbec 50%);
 `;
 
 export const Title = styled.h1`

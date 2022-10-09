@@ -11,7 +11,7 @@ const Error = () => {
         mx="auto"
         mt="5"
         fontSize="l"
-        color="accent"
+        color="gradient"
       >
         Error. Page is not found.
       </Box>

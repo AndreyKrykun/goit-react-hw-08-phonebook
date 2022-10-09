@@ -24,6 +24,7 @@ export const Input = styled(Field)`
   height: ${p => p.theme.space[5]}px;
   padding: ${p => p.theme.space[3]}px;
   outline: orange;
+  background-color: ${p => p.theme.colors.modalColor};
   border: ${p => p.theme.borders.normal};
   border-radius: ${p => p.theme.space[3]}px;
   :focus {

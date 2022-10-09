@@ -53,7 +53,7 @@ export default function Login() {
             backgroundImage: 'url(https://source.unsplash.com/random)',
             backgroundRepeat: 'no-repeat',
             backgroundColor: t =>
-              t.palette.mode === 'light' ? '#fcfc81' : t.palette.grey[900],
+              t.palette.mode === 'light' ? '#a9c9ff' : t.palette.grey[900],
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -66,7 +66,7 @@ export default function Login() {
           component={Paper}
           elevation={6}
           sx={{
-            backgroundColor: '#fcfc81',
+            backgroundColor: '#a9c9ff',
           }}
           square
         >
@@ -100,6 +100,7 @@ export default function Login() {
                 name="email"
                 autoComplete="email"
                 autoFocus
+                backgroundColor= '#a9c9ff'
                 onChange={handleChange}
               />
               <TextField
@@ -111,6 +112,7 @@ export default function Login() {
                 type="password"
                 id="password"
                 autoComplete="current-password"
+                backgroundColor= '#a9c9ff'
                 onChange={handleChange}
               />
               <Button

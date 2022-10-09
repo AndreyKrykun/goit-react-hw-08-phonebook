@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const Navigation = styled.nav`
   display: flex;
   justify-content: space-between;
+  backgroundColor: '#3bdcf8',
   gap: ${p => p.theme.space[5]}px;
 `;
 
@@ -14,7 +15,7 @@ export const Link = styled(NavLink)`
   transition: ${p => p.theme.transition.color};
   :hover,
   :focus {
-    color: ${p => p.theme.colors.yellow};
+    color: ${p => p.theme.colors.teal};
   }
   &.active {
     color: ${p => p.theme.colors.white};

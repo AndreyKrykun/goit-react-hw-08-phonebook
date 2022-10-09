@@ -58,7 +58,7 @@ export default function Register() {
           sx={{
             backgroundImage: 'url(https://source.unsplash.com/random)',
             backgroundRepeat: 'no-repeat',
-            backgroundColor: '#fcfc81',
+            backgroundColor: '#a9c9ff',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -71,7 +71,7 @@ export default function Register() {
           component={Paper}
           elevation={6}
           sx={{
-            backgroundColor: '#fcfc81',
+            backgroundColor: '#a9c9ff',
           }}
           square
         >
@@ -106,6 +106,7 @@ export default function Register() {
                 label="Name"
                 autoFocus
                 type="text"
+                backgroundColor= '#a9c9ff'
                 onChange={handleChange}
               />
               <TextField
@@ -116,6 +117,7 @@ export default function Register() {
                 label="Email Address"
                 name="email"
                 autoComplete="email"
+                backgroundColor= '#a9c9ff'
                 onChange={handleChange}
               />
               <TextField
@@ -127,6 +129,7 @@ export default function Register() {
                 type="password"
                 id="password"
                 autoComplete="new-password"
+                backgroundColor= '#a9c9ff'
                 onChange={handleChange}
               />
               <Button

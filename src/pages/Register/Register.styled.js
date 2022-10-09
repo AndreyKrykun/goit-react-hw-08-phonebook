@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Form = styled.form`
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   margin-left: ${p => p.theme.space[9]};
@@ -11,9 +11,9 @@ export const Form = styled.form`
 
 export const SwitchFormLink = styled(Link)`
   font-family: 'Arial';
-  transition: ${p => p.theme.transition.color};
+  transition: ${p => p.theme.transition.teal};
   :hover,
   :focus {
-    color: ${p => p.theme.colors.blue};
+    color: ${p => p.theme.colors.teal};
   }
 `;

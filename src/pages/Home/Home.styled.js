@@ -21,6 +21,6 @@ export const HomeLink = styled(Link)`
   transition: ${p => p.theme.transition.color};
   :hover,
   :focus {
-    color: ${p => p.theme.colors.secondary};
+    color: ${p => p.theme.colors.teal};
   }
 `;

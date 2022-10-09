@@ -9,7 +9,7 @@ export const PhoneBookIconStyled = styled(RiContactsBookLine)`
   color: ${p => (p.user === 'true' ? 'white' : 'black')};
   :hover,
   :focus {
-    color: ${p => p.theme.colors.yellow};
+    color: ${p => p.theme.colors.teal};
   }
 `;
 

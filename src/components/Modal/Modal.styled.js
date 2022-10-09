@@ -10,13 +10,13 @@ export const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${p => p.theme.colors.modalBg};
-  z-index: 1200;
+  z-index: 999;
 `;
 
 export const ModalWindow = styled.div`
   position: ${p => p.theme.position.relative};
-  background-color: ${p => p.theme.colors.white};
-  border-radius: ${p => p.theme.radii.sm};
-  width: 600px;
+  background-color: ${p => p.theme.colors.modalColor};
+  border-radius: ${p => p.theme.radii.lg};
+  width: 500px;
   height: 300px;
 `;

@@ -1,7 +1,7 @@
-import { SyncLoader } from 'react-spinners';
+import { DotLoader } from 'react-spinners';
 
-const Loader = ({ size = 13 }) => {
-  return <SyncLoader size={size} color="#609" />;
+const Loader = ({ size = 10 }) => {
+  return <DotLoader size={size} color="#74ebd5" />;
 };
 
 export default Loader;
